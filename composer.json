@@ -1,0 +1,5 @@
+{
+    "require": {
+        "jakewhiteley/php-sets": "^1.2"
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "4cf2b15122103ec3f43889fad61e3a30",
+    "packages": [
+        {
+            "name": "jakewhiteley/php-sets",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jakewhiteley/php-sets.git",
+                "reference": "bb8d38c6e5ffe79b41eba728b25c1da016930df5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jakewhiteley/php-sets/zipball/bb8d38c6e5ffe79b41eba728b25c1da016930df5",
+                "reference": "bb8d38c6e5ffe79b41eba728b25c1da016930df5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PhpSets\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Jake Whiteley",
+                    "email": "jakebwhiteley@gmail.com"
+                }
+            ],
+            "description": "An implementation of a Java-like Set data structure for PHP. A Set is an iterable data structure which allows strict-type storage of unique values.",
+            "support": {
+                "issues": "https://github.com/jakewhiteley/php-sets/issues",
+                "source": "https://github.com/jakewhiteley/php-sets/tree/master"
+            },
+            "time": "2020-01-14T21:18:39+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
